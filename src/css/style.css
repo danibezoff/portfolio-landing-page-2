@@ -1,0 +1,216 @@
+body {
+  background-color: rgba(136, 138, 145, 0.1); }
+
+.section-shadow {
+  box-shadow: 0 0 12px black; }
+
+#mainHeader {
+  background-color: rgba(43, 53, 64, 0) !important;
+  transition: box-shadow 0.8s ease-in-out, background-color 0.7s ease-in; }
+
+#mainHeader.is-solid {
+  background-color: #2b3540 !important;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.5); }
+
+@media only screen and (max-width: 480px) {
+  #mainHeader .navbar-brand {
+    width: 200px; } }
+
+.carousel-main-slider {
+  background-position: center;
+  height: 100vh;
+  min-height: 600px;
+  background-size: cover; }
+
+#carouselMain .carousel-caption {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  max-width: 420px;
+  min-width: 270px; }
+
+#carouselMainSlider0 {
+  background-image: linear-gradient(to bottom, rgba(24, 54, 81, 0.3) 0%, rgba(0, 0, 0, 0.5) 100%), url("../images/cloudy-cold-fog-163499.jpg"); }
+
+#carouselMainSlider1 {
+  background-image: linear-gradient(to bottom, rgba(24, 54, 81, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("../images/fog-foggy-forest-4827.jpg"); }
+
+#carouselMainSlider2 {
+  background-position: bottom 0 left 50%;
+  background-image: linear-gradient(to bottom, rgba(24, 54, 81, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("../images/adventure-autumn-calamity-691574.jpg"); }
+
+#sectionWorks {
+  background-color: #2b3540;
+  color: white;
+  overflow: hidden; }
+
+#carouselWorks img {
+  cursor: pointer;
+  padding: 10px;
+  transition: transform 0.2s ease-in; }
+
+#carouselWorks a, #carouselWorks a:hover, #carouselWorks a:active, #carouselWorks a:visited {
+  outline: none; }
+
+#carouselWorks img:hover {
+  transform: scale(1.025); }
+
+@media only screen and (max-width: 576px) {
+  .slick-arrow {
+    display: none !important; } }
+
+#sectionTestimonials .testimonials-block {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.45);
+  border: 4px solid #2b3540;
+  border-radius: 12px;
+  margin-bottom: 80px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.6);
+  transition: transform 0.1s linear, box-shadow 0.1s linear; }
+
+#sectionTestimonials .testimonials-block:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.6); }
+
+#sectionTestimonials .testimonials-photo {
+  border: 7px solid #2b3540;
+  border-radius: 50%;
+  box-shadow: 0 0 1px 1px #2b3540 inset;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+#sectionTestimonials .testimonials-icon {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+#sectionTestimonials .testimonials-row {
+  margin-top: 60px; }
+
+#sectionTestimonials .testimonials-desc {
+  margin-top: 65px; }
+
+#sectionTestimonials .testimonials-social a {
+  color: #2b3540;
+  font-size: 20px;
+  margin: 0 5px;
+  text-decoration: none; }
+
+#sectionTestimonials .testimonials-social {
+  margin-bottom: 15px; }
+
+#sectionTestimonials .mb-negative {
+  margin-bottom: -20px; }
+
+#sectionStats {
+  background: linear-gradient(rgba(43, 53, 64, 0.7), rgba(43, 53, 64, 0.7)), url("../images/forest-haze-landscape-39811.jpg");
+  background-position: center;
+  background-size: cover;
+  color: white; }
+  #sectionStats .row-stats {
+    margin-top: 100px;
+    padding-bottom: 60px;
+    margin-bottom: 50px; }
+  #sectionStats .stat {
+    font-size: 2em;
+    margin-top: 20px; }
+
+#sectionPricing .plan-container {
+  background-color: gray;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.45);
+  border: 4px solid #2b3540;
+  border-radius: 12px;
+  margin-bottom: 80px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.6);
+  padding: 25px 30px; }
+
+#sectionPricing ul {
+  text-align: left;
+  padding: 0;
+  list-style: none; }
+
+#sectionPricing .plan-main {
+  box-shadow: 0 5px 45px rgba(0, 0, 0, 0.4);
+  padding: 40px 30px;
+  position: relative; }
+
+@media only screen and (max-width: 992px) {
+  #sectionPricing .plan-main {
+    margin-bottom: 60px; } }
+
+#sectionPricing .tooltiptext {
+  width: 160px;
+  background-color: #2b3540;
+  color: white;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -80px;
+  margin-bottom: 15px;
+  font-size: 0.9em;
+  box-shadow: 0 5px 45px rgba(0, 0, 0, 0.4); }
+
+#sectionPricing .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #2b3540 transparent transparent transparent; }
+
+#sectionPricing .prices-row {
+  margin-top: 80px; }
+
+@media only screen and (max-width: 992px) {
+  #sectionPricing .prices-row {
+    margin-top: 30px; } }
+
+#sectionPricing .btn-primary {
+  background-color: #68a8ad;
+  border-color: #68a8ad;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+  transition: box-shadow 0.2s linear; }
+
+#sectionPricing .btn-primary:hover {
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.1); }
+
+#sectionContact {
+  background-color: #2b3540;
+  color: white; }
+  #sectionContact .map {
+    height: 81vh; }
+  #sectionContact iframe {
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3); }
+
+#footerMain {
+  background-color: #2b3540;
+  color: white; }
+  #footerMain a {
+    width: 50px;
+    height: 50px;
+    color: white;
+    background-color: #68a8ad;
+    display: block;
+    border: 1px solid white;
+    border-radius: 50%;
+    transition: all 0.4s ease-out;
+    position: relative; }
+  #footerMain .social-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+  #footerMain a:hover {
+    color: #2b3540;
+    border: 1px solid #68a8ad;
+    background-color: white; }
